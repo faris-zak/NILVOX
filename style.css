@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Nuixyber Pro Original Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Nuixyber Pro Original Regular'), url('NuixyberProOriginal-Regular.woff') format('woff');
+    }
+
+*{
+    font-family: 'Nuixyber Pro Original Regular';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: center;
+    background-color: #211951;
+}
+
+header h1.greet{
+    color: #F0F3FF;
+    font-size: 80px;
+}
+
+header p.text{
+    color: #836FFF;
+    font-size: 35px;
+}
+
+main section button.button{
+    background-color: #211951;
+    color: #F0F3FF;
+    border: 2px  solid #15F5BA;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+main section button.button:hover{
+    background-color: #15F5BA;
+    box-shadow: -10px 10px 0px 0px #836FFF;
+    color: #836FFF;
+    border: transparent;
+}
+
+main section button.button:active{
+    background-color: #836FFF;
+    box-shadow: -10px 10px 0px 0px #15F5BA;
+    color: #15F5BA;
+    border: transparent;
+}
+
+@media screen and (max-width: 800px){
+
+    header h1.greet{
+        font-size: 70px;
+    }
+    header p.text{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    header h1.greet{
+        font-size: 60px;
+        margin-top: 20px;
+    }
+    header p.text{
+        font-size: 25px;
+    }
+}
